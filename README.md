@@ -18,7 +18,11 @@ Then execute inverse solution to get sinogram image reconstructed from the elect
 
 6. Run 'results_for_thesis.m' to acquire desired result on testset.
 
+# Installation
+1. Install Matlab (2019a or later) 
+2. Install Comsol Multiphysics (5.0 or later)
 
+# Citation
 If you find the work useful in your research, please use the following entry for citation.
 
 ```BibTeX
