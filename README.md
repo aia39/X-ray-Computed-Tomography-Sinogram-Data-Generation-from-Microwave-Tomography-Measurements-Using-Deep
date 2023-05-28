@@ -11,7 +11,7 @@ This will generate 'epsr_healcases.mat', 'cond_healcases.mat', 'coord_healcases.
 
 3. Run 'MakingMatrixCumulative.m' to get the final electric field vector.
 
-Then execute inverse solution to get image reconstructed from the electric field from forward solution.
+Then execute inverse solution to get sinogram image reconstructed from the electric field from forward solution.
 4. From Inverse Solution folder, run 'ANN_test_All_Meas_heal.m' to train the network.
 
 5. Run 'R_constructing_heal.m' to construct any CT image from the testing set.
