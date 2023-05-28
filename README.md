@@ -1,4 +1,4 @@
-# X-ray-Computed-Tomography-Sinogram-Data-Generation-from-Microwave-Tomography-Measurements-Using-Deep
+# X-ray-Computed-Tomography-Sinogram-Data-Generation-from-Microwave-Tomography-Measurements-Using-Deep-Learning
 
 # Getting Started
 
