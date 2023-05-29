@@ -1,6 +1,9 @@
 # X-ray-Computed-Tomography-Sinogram-Data-Generation-from-Microwave-Tomography-Measurements-Using-Deep-Learning
 
 It is the implementation of whole task of reconstructing images in microwave domain. From forward solution to inverse solution all the necessary codes have been given here. All are implemented using matlab and comsol. For more details of the approach please refere to the [official paper](https://ieeexplore.ieee.org/document/10088739) of this research work.
+
+Pre-print: https://www.researchgate.net/publication/369818642_X-ray_Computed_Tomography_Sinogram_Data_Generation_from_Microwave_Tomography_Measurements_Using_Deep_Neural_Networks
+
 Whole approach overview:
 
 ![demoofprompt](overall_scheme.jpg)
