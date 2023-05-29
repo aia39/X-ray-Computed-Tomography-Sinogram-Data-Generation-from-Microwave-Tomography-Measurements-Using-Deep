@@ -10,7 +10,9 @@ Whole approach overview:
 * **healthy_data_generation.m**: is used to generate simulated shepp logan head phantom electric field and conductivity field. Also it will save corresponding ground truth sinogram from that simulated image domain. Others necessary data will be saved for comsol simulation.
 * **Comsole_1Case_OnlyHealthy_1GHz_1st.m** : is used to take all the previously generated files for microwave forward solution simulation and generate electric field matrix (saving all received electric fields).
 * **MakingMatrixCumulative.m** : is used to pre-process the electric field according to our paper's methodology.
+
 (Inverse Solution)
+
 * **Dataset_1Case_OnlyHealthy_1G_MatrixCumulativeComplexfield.mat** : is a demo sample of processed vectorized electric field.
 * **ANN_test_All_Meas_heal.m** : is to train an ANN network to map from vector electric field to corresponding ground truth sinogram. All the weight files will be saved in 'feedfwdnet' folder.
 *  **R_constructing_heal.m** : from the trained networks, it is the code to construct the whole sinogram and then inverse radon to see the final output of our methodology. 
