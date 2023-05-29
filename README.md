@@ -31,6 +31,7 @@ This will generate 'epsr_healcases.mat', 'cond_healcases.mat', 'coord_healcases.
 3. Run 'MakingMatrixCumulative.m' to get the final electric field vector.
 
 Then execute inverse solution to get sinogram image reconstructed from the electric field from forward solution.
+
 4. From Inverse Solution folder, run 'ANN_test_All_Meas_heal.m' to train the network.
 
 5. Run 'R_constructing_heal.m' to construct any CT image from the testing set.
@@ -40,6 +41,16 @@ Then execute inverse solution to get sinogram image reconstructed from the elect
 # Installation
 1. Install Matlab (2019a or later) 
 2. Install Comsol Multiphysics [with matlab] (5.5 or later)
+
+# Results
+Simulated shepp logan image of healthy brain:
+![simulated](simulated.jpg)
+
+Corresponding sinogram of that shepp logan image of healthy brain (by radon transforming):
+![rad](sino.jpg)
+
+Corresponding reconstructed image from neural network of that healthy brain (by inverse radon transforming predicted sinogram):
+![recons](recons.jpg)
 
 # Citation
 If you find the work useful in your research, please use the following entry for citation.
