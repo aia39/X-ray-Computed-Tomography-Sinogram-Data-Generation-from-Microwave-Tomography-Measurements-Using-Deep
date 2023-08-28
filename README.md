@@ -59,13 +59,12 @@ Corresponding reconstructed image from neural network of that healthy brain (by 
 If you find the work useful in your research, please use the following entry for citation.
 
 ```BibTeX
-@INPROCEEDINGS{10088739,
-  author={Istiak, Md. Abrar and Hasnine, Iftekar Mahmud and Kiourti, Asimina and Alam, M. Shah and Islam, Md. Asiful},
-  booktitle={2022 12th International Conference on Electrical and Computer Engineering (ICECE)}, 
-  title={X-ray Computed Tomography Sinogram Data Generation from Microwave Tomography Measurements Using Deep Neural Networks}, 
+@inproceedings{istiak2022x,
+  title={X-ray Computed Tomography Sinogram Data Generation from Microwave Tomography Measurements Using Deep Neural Networks},
+  author={Istiak, Md Abrar and Hasnine, Iftekar Mahmud and Kiourti, Asimina and Alam, M Shah and Islam, Md Asiful},
+  booktitle={2022 12th International Conference on Electrical and Computer Engineering (ICECE)},
+  pages={164--167},
   year={2022},
-  volume={},
-  number={},
-  pages={164-167},
-  doi={10.1109/ICECE57408.2022.10088739}}
+  organization={IEEE}
+}
 ```
