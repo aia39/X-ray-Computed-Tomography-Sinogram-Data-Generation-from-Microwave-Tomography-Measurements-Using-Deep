@@ -1,4 +1,4 @@
-# X-ray Computed Tomography Sinogram- Data Generation from Microwave Tomography Measurements Using Deep Neural Networks
+# X-ray Computed Tomography Sinogram Data Generation from Microwave Tomography Measurements Using Deep Neural Networks
 
 It is the implementation of whole task of reconstructing images in microwave domain. From forward solution to inverse solution all the necessary codes have been given here. All are implemented using matlab and comsol. For more details of the approach please refer to the [official paper](https://ieeexplore.ieee.org/document/10088739) of this research work.
 
